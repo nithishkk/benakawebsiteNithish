@@ -108,9 +108,9 @@ const NavBar = () => {
             </div>
             <div className="sidebar inactive">
                 <div className="close d-flex justify-content-start">
-                   {/* <div className="icon">
+                   <div className="icon">
                    <Close />
-                   </div> */}
+                   </div>
                 </div>
                     <ul className="header">
                         {
