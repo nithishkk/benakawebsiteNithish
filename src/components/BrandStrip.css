@@ -1,0 +1,39 @@
+.brand-strip {
+  position: relative;
+}
+
+.background-overlay {
+  position: absolute;
+  inset: 0;
+  opacity: 0.1;
+}
+
+.brand-card {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.brand-card:hover {
+  transform: scale(1.08) rotate(-1deg);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.brand-underline {
+  transition: width 0.3s ease;
+}
+
+.brand-card:hover .brand-underline {
+  width: 50%;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,30 @@
+@import "../../styles/size.scss";
+.Nri{
+    padding: 30px 15%;
+    .content{
+        text-align: left;
+    }
+
+
+    .MuiAccordionSummary-gutters{
+        padding: 0px 0 0 20px;
+        background-color: $light-grey-color;
+    }
+
+    .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+        min-height: 45px ;
+    }
+    .css-o4b71y-MuiAccordionSummary-content.Mui-expanded {
+        margin: 10px 0 !important;
+    }
+
+    .MuiAccordionSummary-expandIconWrapper{
+        background: $red-color;
+        height: 50px;
+        width: 33px;
+        padding-left: 8px;
+        display: flex;
+        align-items: center;
+        color: $app-white-color;
+    }
+}

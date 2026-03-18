@@ -1,0 +1,62 @@
+@import "../../styles/size.scss";
+
+.client-testimonials{
+    margin-top: 20px;
+    padding: 2%;
+
+    .cardItem{
+        text-align: justify;
+        padding: 15px;
+        .item{
+            padding: 15px 17px;
+            border: 1px solid $light-green-color;
+        }
+    }
+
+    .history-card{
+        display: flex;
+        justify-content: start;
+        margin: 20px 0px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+        .body{
+            width: 80%;
+        }
+        .header{
+            width: 75%;
+            @media only screen and (max-width: $SM) {
+                width: 100%;
+            }
+        }
+
+        button{
+            margin-top : 20px;
+            background : #F3D02E;
+            color : #000;
+            padding: 15px;
+            border: none;
+            border-radius: 0px;
+            font-weight: bold;
+            height: 50px;
+            width: 300px;
+            font-size: 16px;
+        }
+        .title{
+            text-align: left;
+            padding: 15px;
+        }
+
+        .sidexyz-imageDiv{
+            width: 500px;
+            min-height: 300px;
+            padding: 15px;
+        }
+
+        
+    }
+
+    iframe{
+        width: -webkit-fill-available;
+        height: 300px;
+    }
+}

@@ -1,0 +1,53 @@
+body *,
+html * {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+body {
+  overflow: hidden;
+}
+
+.full {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+}
+
+.zoom {
+  // animation: scale 20s linear infinite; //sadanand 
+}
+  
+@keyframes scale {
+  50% {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+  }
+}
+
+
+
+.textdiv {
+    width: 100px;
+    height: 100px;
+    // background: red;
+    opacity: 0;
+    color: lavender;
+    // animation: fadeIn 10s linear infinite; //sadanand
+    // animation-delay: 5s; //sadanand
+    // animation-fill-mode: both; //sadanand
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

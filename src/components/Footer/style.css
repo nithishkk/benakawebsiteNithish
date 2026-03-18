@@ -1,0 +1,4 @@
+/* If you use the class name or inherit selector */
+.MuiTypography-root a {
+  text-decoration: none;
+}

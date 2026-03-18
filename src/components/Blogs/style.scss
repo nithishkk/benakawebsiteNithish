@@ -1,0 +1,31 @@
+.blogs{
+
+    .blog-image{
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./imges/Mask\ Group\ 102.png');
+        height: 175px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content{
+        padding: 30px 15%;
+        text-align: left;
+
+        .image{
+            img{
+                width: -webkit-fill-available;
+            max-height: 400px;
+            }
+        }
+    }
+
+    .boxes{
+        padding: 20px 0px;
+        span{
+            padding: 6px;
+            margin-right : 10px;
+            border: 1px solid #ddd;
+        }
+    }
+}
